@@ -1,0 +1,70 @@
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-box {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #4b0082;
+    font-size: 28px;
+}
+
+.numbers {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.options button {
+    margin: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #6a5acd;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.options button:hover {
+    background: #483d8b;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#nextBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #32cd32;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+#scoreDisplay {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}

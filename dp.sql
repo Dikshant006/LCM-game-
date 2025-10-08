@@ -1,0 +1,9 @@
+CREATE DATABASE lcm_game;
+
+USE lcm_game;
+
+CREATE TABLE scores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    score INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
